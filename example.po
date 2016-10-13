@@ -1,12 +1,12 @@
 
 #: finddialog.cpp:38
-msgid "Globular Clusters"
-msgstr ""
+msgid "Hello"
+msgstr "Ahoy, Matey"
 ⁠
 #: finddialog.cpp:39
-msgid "Gaseous Nebulae"
-msgstr ""
+msgid "Yes"
+msgstr "Aye"
 ⁠
 #: finddialog.cpp:40
-msgid "Planetary Nebulae"
-msgstr ""
+msgid "Treasure"
+msgstr "Booty"

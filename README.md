@@ -16,17 +16,17 @@ Run:
 ```
 $ cat example.po | docker run --rm -i joonas/po2json --format=raw
 {
-   "Globular Clusters": [
+   "Hello": [
       null,
-      ""
+      "Ahoy, Matey"
    ],
-   "Gaseous Nebulae": [
+   "Yes": [
       null,
-      ""
+      "Aye"
    ],
-   "Planetary Nebulae": [
+   "Treasure": [
       null,
-      ""
+      "Booty"
    ]
 }
 ```
@@ -36,8 +36,8 @@ mf format:
 ```
 $ cat example.po | docker run --rm -i joonas/po2json --format=mf
 {
-   "Globular Clusters": "",
-   "Gaseous Nebulae": "",
-   "Planetary Nebulae": ""
+   "Hello": "Ahoy, Matey",
+   "Yes": "Aye",
+   "Treasure": "Booty"
 }
 ```
