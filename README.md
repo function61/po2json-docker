@@ -41,3 +41,19 @@ $ cat example.po | docker run --rm -i joonas/po2json --format=mf
    "Treasure": "Booty"
 }
 ```
+
+mf format, save to a file:
+
+```
+$ cat example.po | docker run --rm -i joonas/po2json --format=mf > example.json
+```
+
+
+Support / contact
+-----------------
+
+Basic support (no guarantees) for issues / feature requests via GitHub issues.
+
+Paid support is available via [function61.com/consulting](https://function61.com/consulting/)
+
+Contact options (email, Twitter etc.) at [function61.com](https://function61.com/)
